@@ -1,0 +1,6 @@
+framework module PScrollView {
+  umbrella header "PScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

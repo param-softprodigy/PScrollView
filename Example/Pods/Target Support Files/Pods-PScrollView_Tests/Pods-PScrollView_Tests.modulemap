@@ -1,0 +1,6 @@
+framework module Pods_PScrollView_Tests {
+  umbrella header "Pods-PScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

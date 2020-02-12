@@ -1,0 +1,16 @@
+PODS:
+  - PScrollView (0.1.0)
+
+DEPENDENCIES:
+  - PScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  PScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PScrollView: 64735357073b00c10021aa2dbcefe98e2bf79a05
+
+PODFILE CHECKSUM: ba46cbf17b30abe3c861bd837dce066bbaa12268
+
+COCOAPODS: 1.8.4
