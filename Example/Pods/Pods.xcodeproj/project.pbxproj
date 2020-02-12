@@ -10,10 +10,13 @@
 		0178BC83CEECBDFBE1993BBC17F11DEA /* Pods-PScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8ECC24C6CFF2C48152D97D17414B4 /* Pods-PScrollView_Tests-dummy.m */; };
 		0358458D8D942AE0F8099141EADCC749 /* PScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0800DD93E4945E87AC45A4F8CC5FDE /* PScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CED3F4112CF72C10D83E453593A83FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		58F35D6F7CD5EAA6ED875E7560C00F05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B498ABA1C3AC09FCEF85FC5A42EF501 /* ReplaceMe.swift */; };
 		747E3E499107E4ED324AC88C20C02312 /* PScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE75C47A96CB915E5AC126816D864A0 /* PScrollView-dummy.m */; };
 		A9727ED47D9B998541CBA8B7BE860F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BE780A16B51E14695EAA6A4D77D1A355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CE18AB0223F4131800437A5A /* PScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18AAFE23F4131700437A5A /* PScrollView.swift */; };
+		CE18AB0323F4131800437A5A /* PScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18AAFF23F4131700437A5A /* PScrollViewContainer.swift */; };
+		CE18AB0423F4131800437A5A /* PScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18AB0023F4131700437A5A /* PScrollView+.swift */; };
+		CE18AB0523F4131800437A5A /* PScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18AB0123F4131700437A5A /* PScrollViewElement.swift */; };
 		E4D027FA800860B30FED203D5440D45E /* Pods-PScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315C473C56FF19B1E99EED1FBCDD0E6C /* Pods-PScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8C2E8EC44304DB20A300B692650434 /* Pods-PScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24675815628D5A93107724CA0ED0B2 /* Pods-PScrollView_Example-dummy.m */; };
 		FB4A1774D6E94CA4ABAD2F70A2A30F61 /* Pods-PScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6000216D054551482B8F7BFA7F74CB /* Pods-PScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0011CF98EB2B3ADE670FA53E91B10B63 /* PScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PScrollView.modulemap; sourceTree = "<group>"; };
-		0B12075482835B6A6CB2310052F132F0 /* PScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B12075482835B6A6CB2310052F132F0 /* PScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D0800DD93E4945E87AC45A4F8CC5FDE /* PScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PScrollView-umbrella.h"; sourceTree = "<group>"; };
 		0EE75C47A96CB915E5AC126816D864A0 /* PScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PScrollView-dummy.m"; sourceTree = "<group>"; };
 		130989EF7CC69BB41ACF699A98FE8F5D /* PScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PScrollView.xcconfig; sourceTree = "<group>"; };
@@ -57,17 +60,20 @@
 		7685419D81DB9012854D96289E30717C /* Pods-PScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		80624FAEADE085F63C9C3A9FF3E7C0AE /* Pods-PScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90AFC7D5C3D3E02195364617BBC3DA49 /* Pods-PScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B498ABA1C3AC09FCEF85FC5A42EF501 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PScrollView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A41F4B405681A870BC3042CBC3FB817C /* PScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PScrollView.framework; path = PScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41F4B405681A870BC3042CBC3FB817C /* PScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3712F351F480565BC5CFC9E5AE658D /* Pods-PScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6E4DC10FC4E5D64B2D3AFF5F08590FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CD4C4018EDF56985891F86FDC023209D /* Pods_PScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PScrollView_Tests.framework; path = "Pods-PScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E4DC10FC4E5D64B2D3AFF5F08590FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD4C4018EDF56985891F86FDC023209D /* Pods_PScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18AAFE23F4131700437A5A /* PScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PScrollView.swift; sourceTree = "<group>"; };
+		CE18AAFF23F4131700437A5A /* PScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PScrollViewContainer.swift; sourceTree = "<group>"; };
+		CE18AB0023F4131700437A5A /* PScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PScrollView+.swift"; sourceTree = "<group>"; };
+		CE18AB0123F4131700437A5A /* PScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PScrollViewElement.swift; sourceTree = "<group>"; };
 		D0C8ECC24C6CFF2C48152D97D17414B4 /* Pods-PScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D7375AC0A8F114D842CF7459A3FA653B /* PScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PScrollView-Info.plist"; sourceTree = "<group>"; };
 		DC0EF0F7BC1C432FE5F84FD547E8DC86 /* Pods-PScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		E9623A6EAB7AA29224A5E60C3DD22933 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F5BA71B6BFD6830E05A941841098E2B8 /* Pods_PScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PScrollView_Example.framework; path = "Pods-PScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9623A6EAB7AA29224A5E60C3DD22933 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F5BA71B6BFD6830E05A941841098E2B8 /* Pods_PScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBD78CFBE07DB407BA6679C67D1436C /* Pods-PScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +152,7 @@
 		9C280E50CA90EEA2D5618099AFE10EDF /* PScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				9B498ABA1C3AC09FCEF85FC5A42EF501 /* ReplaceMe.swift */,
+				CE18AAFD23F412C500437A5A /* Source */,
 				2468231912E2FDFCB10C927F0E3A3B29 /* Pod */,
 				CB62C1FB081D20244BF34D2E48C62384 /* Support Files */,
 			);
@@ -174,6 +180,17 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PScrollView";
+			sourceTree = "<group>";
+		};
+		CE18AAFD23F412C500437A5A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CE18AAFE23F4131700437A5A /* PScrollView.swift */,
+				CE18AB0023F4131700437A5A /* PScrollView+.swift */,
+				CE18AAFF23F4131700437A5A /* PScrollViewContainer.swift */,
+				CE18AB0123F4131700437A5A /* PScrollViewElement.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -315,6 +332,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D221CA4543122D6195E7B617D40F681E = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,8 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE18AB0523F4131800437A5A /* PScrollViewElement.swift in Sources */,
+				CE18AB0223F4131800437A5A /* PScrollView.swift in Sources */,
+				CE18AB0323F4131800437A5A /* PScrollViewContainer.swift in Sources */,
+				CE18AB0423F4131800437A5A /* PScrollView+.swift in Sources */,
 				747E3E499107E4ED324AC88C20C02312 /* PScrollView-dummy.m in Sources */,
-				58F35D6F7CD5EAA6ED875E7560C00F05 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 130989EF7CC69BB41ACF699A98FE8F5D /* PScrollView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,7 +446,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PScrollView/PScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PScrollView/PScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PScrollView/PScrollView.modulemap";
 				PRODUCT_MODULE_NAME = PScrollView;
@@ -428,7 +454,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -583,13 +610,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -646,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -697,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 130989EF7CC69BB41ACF699A98FE8F5D /* PScrollView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -709,7 +736,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PScrollView/PScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PScrollView/PScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PScrollView/PScrollView.modulemap";
 				PRODUCT_MODULE_NAME = PScrollView;
@@ -717,7 +744,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
