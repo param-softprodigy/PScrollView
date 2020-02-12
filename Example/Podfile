@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PScrollView_Example' do
+  pod 'PScrollView', :path => '../'
+
+  target 'PScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
