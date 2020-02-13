@@ -1,6 +1,11 @@
+
+platform :ios, '12.0'
+
 use_frameworks!
 
 target 'PScrollView_Example' do
+  
+  pod 'TinyConstraints', '~> 4.0.0'
   pod 'PScrollView', :path => '../'
 
   target 'PScrollView_Tests' do

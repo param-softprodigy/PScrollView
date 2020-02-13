@@ -16,7 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "PScrollView/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "TinyConstraints": [
+      "~> 4.0.0"
+    ]
+  },
+  "swift_version": "5.0"
 }

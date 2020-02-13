@@ -1,16 +1,24 @@
 PODS:
-  - PScrollView (0.1.0)
+  - PScrollView (0.1.0):
+    - TinyConstraints (~> 4.0.0)
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - PScrollView (from `../`)
+  - TinyConstraints (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - TinyConstraints
 
 EXTERNAL SOURCES:
   PScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PScrollView: 64735357073b00c10021aa2dbcefe98e2bf79a05
+  PScrollView: 736c535b232036faa2db12516815530c67bf2173
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: ba46cbf17b30abe3c861bd837dce066bbaa12268
+PODFILE CHECKSUM: 8bd62f840a81c94f176400bec3c795d5de6b9b33
 
 COCOAPODS: 1.8.4

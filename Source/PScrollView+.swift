@@ -94,7 +94,7 @@ extension UIView {
     }
     
     @discardableResult
-    public func addScrollView(_ scrollView: PScrollView, withSafeArea: PViewSafeArea = .none, hasStatusBarCover: Bool = false, statusBarBackgroundColor: UIColor = .white, container: PScrollViewContainer, elements: [UIView]) -> UIView {
+    public func addScrollView(_ scrollView: PScrollView, withSafeArea: PViewSafeArea = .none, hasStatusBarCover: Bool = false, statusBarBackgroundColor: UIColor = .white, container: PScrollViewContainer, elements: UIView...) -> UIView {
         addSubview(scrollView)
         scrollView.addSubview(container)
         

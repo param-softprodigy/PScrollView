@@ -313,10 +313,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PScrollView_Example/Pods-PScrollView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PScrollView/PScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
